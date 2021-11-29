@@ -1,9 +1,9 @@
 // import jwt from 'jsonwebtoken'
-import useConsumer from './useConsumer'
+// import useConsumer from './useConsumer'
 require('dotenv').config()
 
 function useFunctions() {
-    const { /* tokenStorage, setTokenStorage, */ email, senha } = useConsumer()
+    // const { tokenStorage, setTokenStorage, email, senha } = useConsumer()
 
     function signIn() {
         // const usuario = {
@@ -11,7 +11,7 @@ function useFunctions() {
         //     senha
         // }
         // const user = jwt.sign(usuario, process.env.JWT_SECURE)
-        console.log(process.env.JWT_SECURE)
+        // console.log(process.env.JWT_SECURE)
     }
 
     return {
