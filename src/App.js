@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import { ContextProvider } from './Context/context';
 import Login from './Pages/Login';
+import SignUp from './Pages/signUp';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <ContextProvider>
           <Routes>
             <Route path="/" element={<Login />} />
+            <Route path="/cadastro" element={<SignUp />} />
           </Routes>
         </ContextProvider>
       </BrowserRouter>
